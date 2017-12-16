@@ -4,13 +4,18 @@ import PropTypes from 'prop-types';
 import Tag from './Tag';
 import styled from 'styled-components';
 
+const Url = styled.a`
+  font-weight: 300;
+  font-size: 1.2em;
+  padding-bottom: 8px;
+  display: inline-block;
+`;
+
 const LinkPanel = ({ url, name, tags, className }) => {
   return (
     <div {...{ className }}>
-      <p>
-        <div>{name}</div>
-        <a href={url}>{url}</a>
-      </p>
+      <div>{name}</div>
+      <Url href={url}>{url}</Url>
       <div>{tags.map(tag => <Tag key={tag} name={tag} />)}</div>
     </div>
   );

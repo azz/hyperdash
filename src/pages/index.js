@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-// import 'searchkit/release/theme.css';
 
 import LinkPanel from '../components/LinkPanel';
 import SideBar from '../components/SideBar';

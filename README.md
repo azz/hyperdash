@@ -4,7 +4,7 @@
 
 WIP.
 
-Idea is to have two YAML files (current in this repository but they should be external) that power a dashboard of URLs. Like a souped up bookmarks bar, but with tagging, filtering, and favouriting.
+Idea is to have two YAML files (currently in the `/data` directory of this repository but they will eventually be external) that power a dashboard of URLs. Like a souped up bookmarks bar, but with tagging, filtering, and favouriting.
 
 Static site built with Gatsby.
 
