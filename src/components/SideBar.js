@@ -14,7 +14,7 @@ const SideBar = ({ tagGroups, setSelectedState }) => {
     <Padded>
       {tagGroups.map((tagGroup, i) => (
         <RefinementFilter
-          key={i}
+          key={tagGroup.name}
           name={tagGroup.name}
           options={tagGroup.tags}
           selectedOptions={tagGroup.selectedTags}
