@@ -1,13 +1,11 @@
-# gatsby-starter-default
-The default Gatsby starter
+# hyperdash
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+> Dashboard for Hyperlinks
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+WIP.
 
-## Deploy
+Idea is to have two YAML files (current in this repository but they should be external) that power a dashboard of URLs. Like a souped up bookmarks bar, but with tagging, filtering, and favouriting.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+Static site built with Gatsby.
+
+Demo deploys to https://hyperdash.netlify.com
