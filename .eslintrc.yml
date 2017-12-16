@@ -1,0 +1,17 @@
+---
+parser: babel-eslint
+plugins:
+- prettier
+- react
+extends:
+- eslint:recommended
+- plugin:react/recommended
+- prettier
+rules:
+  prettier/prettier: error
+globals:
+  graphql: true
+overrides:
+- files: "gatsby-*.js"
+  env:
+    node: true
