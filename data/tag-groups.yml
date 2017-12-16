@@ -1,0 +1,19 @@
+---
+- name: Manufacturer
+  tags:
+  - M:Toyota
+  - M:Nissan
+  - M:Ford
+  - M:Holden
+  - M:Jeep
+- name: Year
+  tags:
+  - Y:2015-2019
+  - Y:2010-2014
+  - Y:2005-2009
+  - Y:2000-2004
+- name: Trim
+  tags:
+  - T:Standard
+  - T:Sport
+  - T:GT

@@ -2,11 +2,10 @@
 parser: babel-eslint
 plugins:
 - prettier
-- react
 extends:
+- prettier
 - eslint:recommended
 - plugin:react/recommended
-- prettier
 rules:
   prettier/prettier: error
 globals:
