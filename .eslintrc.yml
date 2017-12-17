@@ -1,13 +1,9 @@
 ---
 parser: babel-eslint
-plugins:
-- prettier
 extends:
-- prettier
 - eslint:recommended
+- plugin:prettier/recommended
 - plugin:react/recommended
-rules:
-  prettier/prettier: error
 globals:
   graphql: true
 overrides:
